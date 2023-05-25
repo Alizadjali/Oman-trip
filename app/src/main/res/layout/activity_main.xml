@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homebg"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/ntrip"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="143dp"
+        android:layout_marginBottom="145dp"
+        android:backgroundTint="#1E9CAC"
+        android:text="@string/record_trip" />
+    <Button
+        android:id="@+id/aboutus"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="90dp"
+        android:backgroundTint="#1E9CAC"
+        android:text="About us" />
+    <Button
+        android:id="@+id/out860"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="37dp"
+        android:backgroundTint="#1E9CAC"
+        android:text="OUT"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="72dp"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:textColor="#F9D949"
+        android:textStyle="bold"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="495dp"
+        android:text="@string/oman_trip" />
+</RelativeLayout>
